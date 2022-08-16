@@ -1,0 +1,58 @@
+.attend-form
+{
+ background-color: #448894;
+ height: 20rem;
+ width: 20rem;
+margin-left: 30rem;
+margin-top: 10rem;
+padding-top: 1rem;
+padding-left: 2rem;
+
+border-radius: 1rem;
+}
+.attend-tittle
+{
+    margin-left: 5rem ;
+    color: rgb(255, 255, 255);
+
+}
+.attend-id
+{
+    border-radius: 1rem;
+    border:none;
+    height: 1.2rem;
+    margin-left: 3rem;
+    padding-left: 0.8rem;
+
+}
+.attend-name
+{
+    border-radius: 1rem;
+    border:none;
+    height: 1.2rem;
+    padding-left: 0.8rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+.attend-mark
+{
+    border-radius: 1rem;
+    border:none;
+    height: 1.2rem;
+    padding-left: 0.8rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+.attend-submit
+{
+    width: 8rem;
+    height: 1.5rem;
+    background-color: #0e434d;
+    color: white;
+    border-color: white;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: 5rem;
+    border: none;
+}

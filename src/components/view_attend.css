@@ -1,0 +1,8 @@
+table, th, td {
+  
+    margin-top: 2rem;
+      margin-left: 0.5rem;
+      border: 1px solid black;
+      border-collapse: collapse;
+      width: 84.3rem;
+    }

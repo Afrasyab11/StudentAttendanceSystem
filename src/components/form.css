@@ -1,0 +1,233 @@
+.LogIn {
+    background-color: #448894;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    width: 20rem;
+    height: 500px;
+    text-align: center;
+    margin-left: 28rem;
+    margin-top: 3rem;
+    border-radius: 15px;
+
+}
+
+.text {
+    color: #FFFFFF;
+}
+
+.input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin-left: 0px;
+    margin: 8px 0;
+    width: 16rem;
+}
+
+.button {
+    border-radius: 20px;
+    border: 1px solid #E1C7B3;
+    background-color: #448894;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+.SignUp {
+    background-color: #448894;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    width: 25%;
+    height: 550px;
+    text-align: center;
+    margin-left: 28rem;
+    margin-top: 1rem;
+    border-radius: 15px;
+
+}
+
+.SignUpfield {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin-left: 0px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+.SignUpbutton {
+    border-radius: 20px;
+    border: 1px solid #E1C7B3;
+    background-color: #448894;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+.Ulabel {
+
+    float: right;
+
+}
+
+.Lin {
+    display: inline;
+
+    float: left;
+}
+
+/* Responsive design */
+
+@media only screen and (max-width: 600px) {
+
+    .LogIn .text,
+    .input {
+
+
+        width: 100%;
+    
+    }
+
+    .LogIn {
+        float: left;
+        margin-left: 2.7rem;
+        width: 50%;
+        
+    }
+}
+
+/* @media only screen and (min-width: 900px) {
+
+    .LogIn .text,
+    .input {
+
+
+        width: 100%;
+    
+    }
+
+    .LogIn {
+        float: left;
+        margin-left: 2.7rem;
+        width: 50%;
+        
+    }
+} */
+
+/* @media only screen and (min-width: 400px) {
+
+    .LogIn .text,
+    .input {
+
+
+        width: 100%;
+    
+    }
+
+    .LogIn {
+        float: left;
+        margin-left: 9rem;
+        width: 50%;
+        
+    }
+} */
+/* 
+@media only screen and (min-width: 700px) {
+
+    .LogIn .text,
+    .input {
+
+
+        width: 100%;
+    
+    }
+
+    .LogIn {
+        float: left;
+        margin-left: 9rem;
+        width: 50%;
+        
+    }
+}
+@media only screen and (min-width: 500px) {
+
+    .LogIn .text,
+    .input {
+
+
+        width: 100%;
+    
+    }
+
+    .LogIn {
+        float: left;
+        margin-left: 5rem;
+        width: 50%;
+        
+    }
+}
+
+
+
+
+/* Registration Form making Resoponsive */
+@media only screen and (max-width: 600px) {
+
+    .SignUpfield 
+    {
+        width: 100%;
+        padding: 1rem;
+        margin-left: 0rem;
+    }
+
+    .SignUp{
+        float: left;
+        margin-left: 0.5rem;
+        width: 70%;
+    }
+}
+/* 
+@media only screen and (min-width: 900px) {
+
+    .SignUpfield 
+    {
+        width: 100%;
+        padding: 1rem;
+        margin-left: 0rem;
+    }
+
+    .SignUp{
+        float: left;
+        margin-left: 5.5rem;
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 800px) {
+
+    .SignUpfield 
+    {
+        width: 100%;
+        padding: 1rem;
+        margin-left: 0rem;
+    }
+
+    .SignUp{
+        float: left;
+        margin-left: 4rem;
+        width: 70%;
+    }
+}  */
